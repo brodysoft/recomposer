@@ -1,6 +1,6 @@
-import React from 'react';
+import * as React from 'react';
 import { mount } from 'enzyme';
-import sinon from 'sinon';
+import * as sinon from 'sinon';
 
 import { Recomposer } from '../';
 

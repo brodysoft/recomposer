@@ -192,11 +192,11 @@ export class Recomposer<
     test: predicate<InnerProps>,
     trueEnhancer:
       | ComponentEnhancer<InnerProps, NextProps>
-      | InferableComponentEnhancer<NextProps>
+      | InferableComponentEnhancer<{}>
       | Recomposer<any, NextProps>,
     falseEnhancer?:
       | ComponentEnhancer<InnerProps, NextProps>
-      | InferableComponentEnhancer<NextProps>
+      | InferableComponentEnhancer<{}>
       | Recomposer<any, NextProps>,
   ) {
     const compatibleTrueEnhancer =

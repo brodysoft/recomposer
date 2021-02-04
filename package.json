@@ -54,7 +54,9 @@
     "testMatch": [
       "**/__tests__/*.tsx"
     ],
-    "setupTestFrameworkScriptFile": "<rootDir>/src/__tests__/jest.setup.ts"
+    "setupFilesAfterEnv": [
+      "<rootDir>/src/__tests__/jest.setup.ts"
+    ]
   },
   "prettier": {
     "printWidth": 100,

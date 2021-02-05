@@ -53,6 +53,7 @@ test('withHandlers passes immutable handlers', () => {
   wrapper.setProps({ foo: 'bar' });
 
   expect(component.calledTwice).toBe(true);
+  // @ts-ignore - TODO:
   expect(component.firstCall.args[0].handler).toBe(component.secondCall.args[0].handler);
 });
 

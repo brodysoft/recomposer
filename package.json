@@ -32,7 +32,7 @@
     "react": "^16.4.0",
     "react-dom": "^16.4.0",
     "recompose": "^0.30.0",
-    "sinon": "^5.1.0",
+    "sinon": "^9.2.4",
     "ts-jest": "^26.5.0",
     "tslint": "^5.10.0",
     "tslint-react": "^3.6.0",

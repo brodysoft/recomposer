@@ -57,6 +57,8 @@ export class Recomposer<
   }
 
   enhance(Component: ComponentType<InnerProps & InnerState>): ComponentClass<OuterProps> {
+    // TODO resolve type issue here with @types/react post-16.4 update:
+    // error TS2322: Type 'ComponentClass<OuterProps>' is not assignable to type 'ComponentClass<OuterProps, any>'.
     return compose<InnerProps, OuterProps>(...this.opts)(Component);
   }
 

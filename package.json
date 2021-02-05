@@ -28,7 +28,7 @@
     "husky": "^0.14.3",
     "jest": "^26.6.3",
     "lint-staged": "^9.5.0",
-    "prettier": "^1.13.4",
+    "prettier": "~1.17.1",
     "react": "~16.12.0",
     "react-dom": "~16.12.0",
     "recompose": "^0.30.0",
